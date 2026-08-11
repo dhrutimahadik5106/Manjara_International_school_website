@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #2D3748;
+  background-color: #F9FAFB;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f9fafb 0%, #f3f5f7 100%);
+  color: #2D3748;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+p {
+  line-height: 1.8;
+}
+
+img {
+  border-radius: 1.25rem;
+}
+
+::selection {
+  background: #234E70;
+  color: white;
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-[1.5rem] border border-white/40 bg-white/70 backdrop-blur-xl;
+  }
+
+  .section-shell {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .card-surface {
+    @apply rounded-[1.125rem] border border-slate-200/70 bg-white shadow-[0_14px_36px_-22px_rgba(45,55,72,0.25)];
+  }
+}
