@@ -1,13 +1,38 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import { imageAssets } from '../../data/images.js';
 
 const initiatives = [
-  { title: 'Innovation Programs', description: 'Hands-on learning that encourages inquiry and creative problem solving.', image: '/images/initiative-1.jpg' },
-  { title: 'Sports Excellence', description: 'Discipline, teamwork, and confidence built through purposeful physical activity.', image: '/images/initiative-2.jpg' },
-  { title: 'Environmental Activities', description: 'Responsible citizenship nurtured through sustainability and awareness.', image: '/images/initiative-3.jpg' },
-  { title: 'STEM Learning', description: 'Experiments and discovery that bring science and technology to life.', image: '/images/initiative-4.jpg' },
-  { title: 'Community Outreach', description: 'Service-minded learning that connects students to the wider community.', image: '/images/initiative-5.jpg' },
-  { title: 'Student Leadership', description: 'Opportunities to lead, empathise, and contribute with confidence.', image: '/images/initiative-6.jpg' },
+  {
+    title: 'Celebrating Our Culture',
+    description: 'Creating meaningful connections with our culture and traditions through celebrations and shared experiences.',
+    image: imageAssets.initiatives[0],
+  },
+  {
+    title: 'Sports Excellence',
+    description: 'Discipline, teamwork, and confidence shaped through purposeful physical activity.',
+    image: imageAssets.initiatives[1],
+  },
+  {
+    title: 'Environmental Activities',
+    description: 'Responsible citizenship nurtured through sustainability and awareness.',
+    image: imageAssets.initiatives[2],
+  },
+  {
+    title: 'Creativity & Expression',
+    description: 'Providing space for imagination, creativity, and individual expression to flourish.',
+    image: imageAssets.initiatives[3],
+  },
+  {
+    title: 'Community & Togetherness',
+    description: 'Building a strong school community where students, teachers, and families grow together.',
+    image: imageAssets.initiatives[4],
+  },
+  {
+    title: 'Celebrations & School Life',
+    description: 'Making school life memorable through celebrations, events, and experiences shared together.',
+    image: imageAssets.initiatives[5],
+  },
 ];
 
 const Initiatives = () => {
@@ -16,8 +41,8 @@ const Initiatives = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl space-y-4">
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-secondary">Manjara Initiatives</p>
-            <h2 className="text-3xl font-semibold text-primary sm:text-4xl">Learning that extends beyond the classroom.</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#245B8F]">Manjara Initiatives</p>
+            <h2 className="text-3xl font-semibold text-primary sm:text-4xl">Learning that extends beyond the classroom and into life.</h2>
           </div>
         </div>
         <div className="grid gap-6 lg:grid-cols-3">
@@ -27,7 +52,7 @@ const Initiatives = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-primary">{item.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-600">{item.description}</p>
-                <button className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-secondary">
+                <button className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#245B8F]">
                   Learn More <ArrowRight size={16} />
                 </button>
               </div>

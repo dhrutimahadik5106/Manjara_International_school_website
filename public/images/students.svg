@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Students placeholder">
+  <rect width="1600" height="1000" fill="#F4F9FC"/>
+  <rect x="180" y="190" width="1240" height="620" rx="44" fill="#FFFFFF"/>
+  <rect x="260" y="290" width="450" height="280" rx="28" fill="#123B5D"/>
+  <rect x="760" y="290" width="300" height="280" rx="28" fill="#245B8F"/>
+  <circle cx="360" cy="430" r="72" fill="#C7A45D"/>
+  <circle cx="910" cy="430" r="72" fill="#C7A45D"/>
+  <rect x="300" y="520" width="420" height="90" rx="20" fill="#6F9FC2"/>
+  <rect x="780" y="520" width="350" height="90" rx="20" fill="#6F9FC2"/>
+</svg>

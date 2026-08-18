@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="School hero placeholder">
+  <rect width="1600" height="1000" fill="#0B2942"/>
+  <rect x="0" y="0" width="1600" height="1000" fill="url(#bg)"/>
+  <path d="M1100 260c90-60 180-60 266 0v500h-266z" fill="#1E4D78"/>
+  <rect x="250" y="260" width="420" height="390" rx="36" fill="#F7FAFC"/>
+  <rect x="292" y="312" width="336" height="120" rx="20" fill="#123B5D"/>
+  <rect x="292" y="452" width="140" height="112" rx="20" fill="#6F9FC2"/>
+  <rect x="452" y="452" width="176" height="112" rx="20" fill="#C7A45D"/>
+  <circle cx="1180" cy="340" r="96" fill="#FFFFFF" fill-opacity="0.2"/>
+  <circle cx="1180" cy="340" r="64" fill="#FFFFFF" fill-opacity="0.3"/>
+  <path d="M1020 740c80-80 260-92 354-12 52 44 112 64 168 64V900H986c-18-30-28-55-28-83 0-24 10-48 28-77z" fill="#C7A45D" fill-opacity="0.9"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#153B5D"/>
+      <stop offset="100%" stop-color="#63A0C1"/>
+    </linearGradient>
+  </defs>
+</svg>

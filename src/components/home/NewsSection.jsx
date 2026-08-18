@@ -1,24 +1,25 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, CalendarDays } from 'lucide-react';
+import { imageAssets } from '../../data/images.js';
 
 const posts = [
   {
     title: 'Campus Innovation Week',
-    date: '12 Aug 2026',
-    description: 'Students explored creative projects and collaborative learning experiences in a vibrant showcase.',
-    image: '/images/news-1.jpg',
+    date: 'Content to be updated',
+    description: 'Client-ready stories and event highlights will be published here as the school shares them.',
+    image: imageAssets.news[0],
   },
   {
     title: 'Sports Festival Highlights',
-    date: '28 Jul 2026',
-    description: 'A spirited celebration of teamwork, discipline, and student achievement across age groups.',
-    image: '/images/news-2.jpg',
+    date: 'Content to be updated',
+    description: 'Upcoming events and celebrations will be showcased with imagery and details once available.',
+    image: imageAssets.news[1],
   },
   {
     title: 'Parent Interaction Session',
-    date: '09 Jul 2026',
-    description: 'Families engaged in meaningful conversations around student development and support.',
-    image: '/images/news-3.jpg',
+    date: 'Content to be updated',
+    description: 'News and announcements will be added here as the school provides updated content.',
+    image: imageAssets.news[2],
   },
 ];
 
@@ -28,11 +29,11 @@ const NewsSection = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl space-y-4">
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-secondary">Latest News & Events</p>
-            <h2 className="text-3xl font-semibold text-primary sm:text-4xl">Stories of growth, celebration, and connection.</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#245B8F]">Latest News</p>
+            <h2 className="text-3xl font-semibold text-primary sm:text-4xl">Fresh updates and school stories will be shared here.</h2>
           </div>
           <button className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-primary transition hover:bg-slate-50">
-            View All News <ArrowRight size={16} />
+            View All <ArrowRight size={16} />
           </button>
         </div>
         <div className="grid gap-6 lg:grid-cols-3">
@@ -45,7 +46,7 @@ const NewsSection = () => {
                 </div>
                 <h3 className="text-xl font-semibold text-primary">{post.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-600">{post.description}</p>
-                <button className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-secondary">
+                <button className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#245B8F]">
                   Read More <ArrowRight size={16} />
                 </button>
               </div>

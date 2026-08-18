@@ -1,0 +1,46 @@
+export const imageAssets = {
+  logo: '/images/home/logo.png',
+  schoolHero: '/images/school-hero.svg',
+  schoolCampus: '/images/home/schoolcampus.jpeg',
+  students: '/images/home/student.png',
+  classroom: '/images/classroom.svg',
+  library: '/images/library.svg',
+  sports: '/images/sports.svg',
+  laboratory: '/images/laboratory.svg',
+  principal: '/images/home/principal.png',
+  president: '/images/team/president.png',
+  ramBellale: '/images/team/vicepresident.png',
+  jyotiKadwade: '/images/team/secretary.png',
+  dilipPalimkar: '/images/team/member.png',
+  sandeshBellale: '/images/team/managingdirector.png',
+  gallery: [
+    '/images/gallery-01.svg',
+    '/images/gallery-02.svg',
+    '/images/gallery-03.svg',
+    '/images/gallery-04.svg',
+    '/images/gallery-05.svg',
+  ],
+  journey: [
+    '/images/journey/discover.jpeg',
+    '/images/journey/learn.png',
+    '/images/journey/celebrate.png',
+    '/images/journey/create.png',
+    '/images/journey/grow.png',
+    '/images/journey/participate.png',
+  ],
+  news: [
+    '/images/news-01.svg',
+    '/images/news-02.svg',
+    '/images/news-03.svg',
+  ],
+
+  initiatives: [
+  '/images/initiatives/culture.png',
+  '/images/initiatives/sports.png',
+  '/images/initiatives/environmental.png',
+  '/images/initiatives/creativity.png',
+  '/images/initiatives/community.png',
+  '/images/initiatives/celebration.png',
+],
+
+};

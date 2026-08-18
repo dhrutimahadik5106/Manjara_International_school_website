@@ -1,18 +1,18 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Award, BookOpen, Medal, Smile, Sparkles, Users } from 'lucide-react';
+import { ArrowRight, Award, BookOpen, Medal, Sparkles, Users } from 'lucide-react';
+import { imageAssets } from '../../data/images.js';
 
 const stats = [
-  { label: 'Students', value: 1200, icon: Users },
-  { label: 'Awards', value: 85, icon: Award },
-  { label: 'Olympiad Results', value: 92, icon: Medal },
-  { label: 'Activities', value: 40, icon: BookOpen },
-  { label: 'Years of Excellence', value: 7, icon: Sparkles },
-  { label: 'Happy Parents', value: 98, icon: Smile },
+  { label: 'Student community', value: '250+', icon: Users },
+  { label: 'Achievement information to be updated', value: '—', icon: Award },
+  { label: 'Performance information to be updated', value: '—', icon: Medal },
+  { label: 'Activities', value: '40+', icon: BookOpen },
+  { label: 'Years of experience', value: '7+', icon: Sparkles },
 ];
 
 const achievementCards = [
-  { title: 'Academic Excellence', description: 'Celebrating consistent growth in curriculum achievements and co-curricular success.', image: '/images/achievements-1.jpg' },
-  { title: 'Student Leadership', description: 'Recognising young minds who lead with initiative, empathy, and confidence.', image: '/images/achievements-2.jpg' },
+  { title: 'Academic Growth', description: 'A balanced learning culture that supports curiosity, discipline, and confidence.', image: imageAssets.classroom },
+  { title: 'Student Leadership', description: 'Celebrating initiative, responsibility, and purpose through school life.', image: imageAssets.students },
 ];
 
 const Achievements = () => {
@@ -21,11 +21,11 @@ const Achievements = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl space-y-4">
-            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-secondary">Our Achievements</p>
-            <h2 className="text-3xl font-semibold text-primary sm:text-4xl">Milestones that speak to our commitment to excellence.</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#245B8F]">Our Achievements</p>
+            <h2 className="text-3xl font-semibold text-primary sm:text-4xl">Milestones that reflect our commitment to purposeful growth.</h2>
           </div>
           <button className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-primary transition hover:bg-slate-50">
-            View All Achievements <ArrowRight size={16} />
+            View All <ArrowRight size={16} />
           </button>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">

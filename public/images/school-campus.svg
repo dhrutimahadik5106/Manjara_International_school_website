@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Campus placeholder">
+  <rect width="1600" height="1000" fill="#EAF3F8"/>
+  <rect x="180" y="250" width="1240" height="520" rx="40" fill="#F7FAFC"/>
+  <rect x="240" y="320" width="260" height="240" rx="26" fill="#123B5D"/>
+  <rect x="540" y="320" width="260" height="240" rx="26" fill="#245B8F"/>
+  <rect x="840" y="320" width="260" height="240" rx="26" fill="#6F9FC2"/>
+  <rect x="1140" y="320" width="220" height="240" rx="26" fill="#C7A45D"/>
+  <path d="M220 748c160-120 420-120 580 0v80H220z" fill="#123B5D"/>
+  <path d="M810 748c140-120 346-120 486 0v80H810z" fill="#245B8F"/>
+</svg>

@@ -5,19 +5,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#234E70',
-        secondary: '#C9A227',
-        accent: '#6FA3A8',
-        background: '#F9FAFB',
+        primary: '#123B5D',
+        secondary: '#245B8F',
+        accent: '#6F9FC2',
+        gold: '#C7A45D',
+        background: '#F7FAFC',
         surface: '#FFFFFF',
-        text: '#2D3748',
+        text: '#263746',
+        muted: '#64748B',
       },
       fontFamily: {
         heading: ['Poppins', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
       },
       boxShadow: {
-        soft: '0 16px 40px -24px rgba(35, 78, 112, 0.18)',
+        soft: '0 18px 44px -24px rgba(18, 59, 93, 0.24)',
       },
     },
   },
