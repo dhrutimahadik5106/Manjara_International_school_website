@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #102A43;
+  background-color: #F8FAFC;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #F8FAFC;
+  color: #102A43;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography Hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -0.015em;
+  color: #0B2742;
+}
+
+p {
+  line-height: 1.75;
+}
+
+::selection {
+  background: #145A86;
+  color: #FFFFFF;
+}
+
+/* Accessibility Focus States */
+:focus-visible {
+  outline: 2px solid #C9A24D;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Custom Component Utilities */
+@layer components {
+  .glass-panel {
+    @apply rounded-2xl border border-white/40 bg-white/80 backdrop-blur-md shadow-card;
+  }
+
+  .section-shell {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-slate-200/80 bg-white shadow-card transition-all duration-300 hover:shadow-card-hover;
+  }
+
+  /* Reserved Image Placeholder Utility to avoid layout shifts */
+  .reserved-image-container {
+    @apply relative overflow-hidden bg-slate-100 rounded-xl flex items-center justify-center border border-slate-200/60 transition-colors;
+    min-height: 180px;
+  }
+}
+
+/* Reserved Image Placeholder Fallback Styling */
+img:not([src]), img[src=""] {
+  opacity: 0;
+}
+
+/* Smooth Focus Ring for Buttons & Forms */
+.mis-btn {
+  @apply inline-flex items-center justify-center font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none;
+}

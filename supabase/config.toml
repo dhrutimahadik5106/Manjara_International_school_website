@@ -1,0 +1,9 @@
+# Authorization is validated inside each authenticated function with getUser.
+[functions.portal-login]
+verify_jwt = false
+[functions.create-portal-user]
+verify_jwt = false
+[functions.reset-portal-password]
+verify_jwt = false
+[functions.change-portal-password]
+verify_jwt = false
