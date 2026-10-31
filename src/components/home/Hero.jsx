@@ -31,10 +31,28 @@ const Hero = () => {
               <span className="tracking-wide">Rising Towards Excellence</span>
             </div>
 
-            {/* School Name Header */}
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] text-white">
-              Manjara International School
-            </h1>
+            
+            
+             
+
+
+{/* School Name Header */}
+<div className="mb-2">
+  <p className="text-sm sm:text-base font-medium text-white mb-2">
+    Balaghat Mathematical Sciences Development Society&apos;s
+  </p>
+
+  <h1
+    className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] text-white"
+    style={{ fontFamily: "'Poppins', sans-serif" }}
+  >
+    Manjara International School
+  </h1>
+</div>
+
+
+
+
 
             {/* Subheadings */}
             <div className="mt-4 inline-block rounded-xl bg-mis-gold/20 border border-mis-gold/40 px-4 py-2 backdrop-blur-sm">
